@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		th,td,tr,table{
+			border:1px black solid;
+			border-collapse:collapse;
+		}
+		table
+		{
+			width:100%;
+		}
+
+		.check
+		{
+			background-color: gray;
+		}
+	</style>
+	<title>Tables</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Age</th>
+			<th>Phone</th>
+			<th>Pincode</th>
+		</tr>
+		<tr>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+		</tr>
+		<tr>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+		</tr>
+		<tr>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+		</tr>
+	</table>
+	<br><br>
+	<table>
+		<tr>
+			<th>Course</th>
+			<td>item</td>
+		</tr>
+		 	<tr>
+				<th rowspan="2">Contact No</th>
+				<td>item</td>
+			</tr>
+			<tr>
+				<td>item</td>
+	  		</tr>
+	</table>
+	<br><br>
+
+
+	<table border=1px style="width:100%">
+  <tr>
+  	<th>Course</th>
+
+    <th colspan="2">Contact No</th>
+    <th>Date of Commencement</th>
+  </tr>
+  <tr>
+  	<td>Elevation Academy</td>
+
+    <td>190823471239</td>
+    <td>dd/mm/yy</td>
+  </tr>
+  <tr>
+  <td>Elevation Academy</td>
+    <td>190823471239</td>
+    <td>dd/mm/yy</td>
+  </tr>
+</table>
+<br><br>
+<table style=width:50%>
+	<tr>
+		<td class='check'>item1</td>
+		<td>item2</td>
+		<td class='check'>item3</td>
+		<td>item4</td>
+	</tr>	
+	<tr>
+		<td >item1</td>
+		<td class='check'>item2</td>
+		<td >item3</td>
+		<td class='check'>item4</td>
+	</tr>
+</table>
+</body>
+</html>
